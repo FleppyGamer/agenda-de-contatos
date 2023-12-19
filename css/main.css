@@ -6,10 +6,6 @@
     font-size: 18px;
 }
 
-body{
-    background-color: #87CEFA;
-}
-
 .container{
     max-width: 960px;
     width: 100%;
@@ -19,8 +15,9 @@ body{
 }
 
 header{
-    margin-top: 32px;
-    margin-bottom: 22px;
+    background-color: #87CEFA;
+    padding-top: 32px;
+    padding-bottom: 22px;
 }
 
 header h1{
@@ -28,10 +25,15 @@ header h1{
     font-size: 40px;
 }
 
+body{
+    background-color: #F5DEB3;
+    margin: 0 auto;
+}
+
 .container form input,
 .container form button{
     padding: 4px 6px;
-    margin: 4px;
+    margin: 12px;
 }
 
 #warning{
@@ -45,7 +47,8 @@ header h1{
 }
 
 .container table{
-    margin: 12px auto;
+    margin: auto;
+    margin-bottom: 24px;
     justify-content: center;
 }
 
@@ -58,10 +61,7 @@ header h1{
     border-bottom: 2px black solid;
 }
 
-.container tbody td{
+.container tbody td,
+.container table{
     border-bottom: 1px black solid;
-}
-
-.not-center-aligning{
-    text-align: left;
 }
