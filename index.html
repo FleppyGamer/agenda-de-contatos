@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Contatos</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&family=Preahvihear&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Agenda de Contatos</h1>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <form id="submition-form">
+                <input type="text" id="name" placeholder="Ex.: Fulano de Tal" required>
+                <input type="tel" id="phone" placeholder="Ex.: (11) 91234-5678" required minlength="15" maxlength="15">
+                <button type="submit">Cadastrar</button>
+            </form>
+            <div id="warning">
+                <p>This is a standard message for anyone who's seeing this :3</p>
+            </div>
+            <table cellspacing="0">
+                <thead>
+                    <tr>
+                        <th id="element">Nome</th>
+                        <th id="element">Telefone de Contato</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                    <tr>
+                        <td id="element">Henrique Gonçalves</td>
+                        <td id="element">(41) 98877-0901</td>
+                    </tr>
+                    <tr>
+                        <td id="element">Miranha Gonçalves</td>
+                        <td id="element">(41) 99365-0606</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>
