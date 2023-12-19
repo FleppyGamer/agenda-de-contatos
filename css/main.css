@@ -3,11 +3,12 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Dosis', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .container{
-    max-width: 960px;
+    max-width: 1260px;
     width: 100%;
     margin: 0 auto;
     text-align: center;
@@ -15,12 +16,13 @@
 }
 
 header{
-    background-color: #87CEFA;
+    background-color: #6495ED;
     padding-top: 32px;
     padding-bottom: 22px;
 }
 
 header h1{
+    color: white;
     font-family: 'Preahvihear', sans-serif;
     font-size: 40px;
 }
@@ -30,10 +32,34 @@ body{
     margin: 0 auto;
 }
 
+.container form{
+    display: flex;
+    margin: 12px 0;
+    justify-content: center;
+    align-items: center;
+}
+
 .container form input,
 .container form button{
     padding: 4px 6px;
-    margin: 12px;
+    margin: 4px;
+    border-radius: 4px;
+}
+
+.container form input{
+    border: 1px black solid ;
+}
+
+.container form button{
+    background-color: #8B4513;
+    color: white;
+    padding: 6px 12px;
+    border: 0;
+}
+
+.container form button:hover{
+    background-color: #a86c51;
+    cursor: pointer;
 }
 
 #warning{
@@ -58,6 +84,7 @@ body{
 }
 
 .container thead th{
+    font-weight: 600;
     border-bottom: 2px black solid;
 }
 
